@@ -1,0 +1,89 @@
+[
+    {
+        "Id": "sha256:4a561ccac6cc2c243fc185036afadc0fffd0acc98b79d20cdb7ce211cf34f32a",
+        "RepoTags": [
+            "conjurinc/conjur-ui:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2016-02-17T01:43:05.933223141Z",
+        "Container": "6e8b956243d2ae5ba70eb349e3b60f5e5bd6db8f29d56d5a4db8b722f72489de",
+        "ContainerConfig": {
+            "Hostname": "7fec8b4f78d9",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "443/tcp": {},
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "MIX_ENV=dev",
+                "ERL_AFLAGS=-smp enable"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ADD dir:8a22d7a9fa6850c65eed4acf0f1d51a621eb131fc5927f11dab8ed823da5b764 in /usr/share/nginx/html"
+            ],
+            "Image": "243e98fb2cb874489c6addc8a639845e0c4052bca271a632ae7b27ecb226c8c2",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": [],
+            "Labels": null
+        },
+        "DockerVersion": "1.8.3",
+        "Author": "Conjur Inc",
+        "Config": {
+            "Hostname": "7fec8b4f78d9",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "443/tcp": {},
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "MIX_ENV=dev",
+                "ERL_AFLAGS=-smp enable"
+            ],
+            "Cmd": [
+                "/start.py"
+            ],
+            "Image": "243e98fb2cb874489c6addc8a639845e0c4052bca271a632ae7b27ecb226c8c2",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": [],
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 631152290,
+        "VirtualSize": 631152290,
+        "GraphDriver": {
+            "Name": "aufs",
+            "Data": null
+        }
+    }
+]
