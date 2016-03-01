@@ -16,7 +16,6 @@ docker::run { 'conjur-solo':
    image => 'registry.tld/conjur-appliance',
    ports => ['443:443','636:636','5432:5432'],
    restart => 'always',
-#   extra_parameters => ['--log-driver=syslog --log-opt'],
 }
 
 docker::exec { 'configure-master':
