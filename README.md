@@ -2,7 +2,7 @@
 
 This project uses puppet and vagrant to create a virtual box appliance for Conjur.
 
-It installs and configures a Conjur Master
+It installs and configures a [Conjur Master](https://developer.conjur.net/server_setup/platforms/docker.html) and the [Conjur UI](https://developer.conjur.net/server_setup/tools/ui.html).  The hostname for the image conjur.local.
 
 ## Running
 1. Copy the docker container to this directory
